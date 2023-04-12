@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{    font-family: 'Carrois Gothic SC', sans-serif;}
+
+/* Grid chama */
+.header{
+    z-index: 100;
+    display: flex;
+    grid-area: header;
+    
+    background-color: #171744;
+}
+.section{
+    grid-area: section;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    height: 102vh;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    grid-area: main;
+    background-color: #e7e5e5d2;
+}
+.article{
+    
+    height: 100vh;
+    grid-area: article;
+}
+.footer{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #171744;
+    height: 40vh;
+    grid-area: footer;
+}
+.container_grid{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 0.1fr 95vh 95vh;
+    grid-template-areas: " header header header "
+    "section section section" 
+    "main main main"
+    "article article article"
+    "footer footer footer"
+    ;
+}
+/* Fim GRID CHAMA */
+/* mENU */
+.header_menu{
+    width: 100%;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    display: flex;
+    list-style: none;
+    font-size: 1.0rem;
+    align-items: center;
+    font-weight: 700;
+    color: #ffffff;
+}
+.header_menu--itens{
+    margin-right: 19%;
+}
+.header_menu--itens--a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.header_menu--itens--a:hover::after {
+    content: ''; /* adiciona conteúdo vazio após o link */
+    display: block; /* define como bloco */
+    position: absolute; /* define a posição absoluta em relação ao link */
+    width: 3%; /* define a largura como 100% do link */
+    height: 2px; /* define a altura da linha */
+    bottom: 10; /* posiciona a linha na parte inferior do link */
+    background-color: #ffffff; /* define a cor da linha */
+  }
+  /* fIM MENU */
+  /* Inicio section com paralax */
+  /* INICIO BACKGROUND FOTO */
+  .section-titulo span.section_titulo {
+    color: #fff;
+    background-color: #111;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.section_caixa {
+    z-index: -1;
+    height: 1000px;
+    background-image: url(imagens/hunters-race-MYbhN8KaaEc-unsplash.jpg);
+    background-repeat: no-repeat;
+}
+.section_caixa{
+    position: relative;
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.section-titulo{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+/* Main investimentos */
+.main__menu{
+    display: flex;
+  flex-direction: column;
+width: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+border-radius: 7px;
+margin: 30px;
+background-color: #ffffffb6;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;   
+width: calc(50% - 5px);
+height: 300px;
+width: 320px;
+
+}
+.card h1{
+    color: #171744;
+    font-size: 20px;
+}
+.card p{
+    font-size:15px ;
+    margin-left:10px;
+}
+.card button{
+    cursor: pointer;
+    background-color: #171744;
+    color:#fff ;
+    border-radius: 5px ;
+    border: none;
+    width: 105px;
+}
+/* fim main investimentos  */
+/* Inicio footer  */
+.footer_card{
+    display: flex;
+    align-items: initial;
+    flex-direction: column;
+color: #fff;
+font-family: Helvetica, sans-serif;
+    width: 15%;
+    height: 350px;
+}
+.footer_card p{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size:15px ;
+    color: #797979;
+}
+.footer_card a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer_card a:hover{
+    background-color: #111;
+    width: 50%;
+}
+.footer_card--logo {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+
+}
+.footer_card--ul {
+    display: flex;
+    margin-top: 50px;
+    list-style: none;
+}
+.footer_card--ul_li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: 5px;
+width: 38px;
+height: 38px;
+margin-top: -15px;
+background-color: #008cff;
+border-radius: 10px;
+}
+.footer_card--ul_li:hover{
+    transform: scale(0.9);
+}
+input{
+    width: 200px;
+    height: 40px;
+    margin-top: 15px;
+}
