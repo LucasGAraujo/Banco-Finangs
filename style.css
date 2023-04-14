@@ -252,7 +252,6 @@ input{
         margin: 15px;
         height: 250px;
       }
-    }
     .footer{
     height: auto;
     flex-direction: column;
@@ -286,6 +285,7 @@ input{
     height: 30px;
     margin-top: -10px;
     }
+}
     @media screen and (max-width: 1500px) {
         .container_grid {
           grid-template-rows: 0.1fr 80vh 80vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
