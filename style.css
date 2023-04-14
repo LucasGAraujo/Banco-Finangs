@@ -290,14 +290,12 @@ input{
         .container_grid {
           grid-template-rows: 0.1fr 80vh 80vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
         }
-        
-        .section_caixa {
-          height: 800px; /* ajuste a altura do parallax */
+          
+          .card {
+            width: 100%;
+          }
         }
-    
         .footer_card {
-          width: 25%; /* ajuste a largura do cartão do rodapé */
-          height: auto;
+            display: flex;
+            justify-content: center;
         }
-        
-      }
