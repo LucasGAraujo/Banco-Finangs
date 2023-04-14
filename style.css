@@ -294,12 +294,7 @@ input{
         .section_caixa {
           height: 800px; /* ajuste a altura do parallax */
         }
-        
-        .card {
-          width: calc(33.33% - 5px); /* ajuste a largura dos cartões */
-          height: 350px;
-        }
-        
+    
         .footer_card {
           width: 25%; /* ajuste a largura do cartão do rodapé */
           height: auto;
