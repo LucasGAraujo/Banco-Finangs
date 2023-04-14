@@ -304,14 +304,5 @@ input{
           width: 25%; /* ajuste a largura do cartão do rodapé */
           height: auto;
         }
-        .main{
-            display: flex;
-            justify-content: center;
-            height: 112vh;
-            z-index: -1;
-            display: flex;
-            justify-content: center;
-            grid-area: main;
-            background-color: #e7e5e5d2;
-        }
+        
       }
