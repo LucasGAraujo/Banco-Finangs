@@ -285,11 +285,12 @@ input{
 }
     @media screen and (max-width: 1500px) {
         .container_grid {
-          grid-template-rows: 0.1fr 80vh 80vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
+          grid-template-rows: 0.1fr 80vh 100vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
         }
-          
-          .card {
-            width: 100%;
+        .card {
+            width: calc(100% - 30px);
+            margin: 15px;
+            height: 350px;
           }
         }
         .footer_card {
