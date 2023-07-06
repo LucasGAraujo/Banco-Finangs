@@ -353,3 +353,15 @@ input{
             width: 100%;
         }
     }
+    @media screen and (max-width: 420px) {
+        .main{
+            height: 450vh;
+        }
+        .container_grid {
+            grid-template-rows: 0.1fr 80vh 480vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
+          } 
+          .footer{
+            height: 140vh;   
+            width: 100%;
+        }
+    }
