@@ -355,10 +355,10 @@ input{
     }
     @media screen and (max-width: 420px) {
         .main{
-            height: 460vh;
+            height: 466vh;
         }
         .container_grid {
-            grid-template-rows: 0.1fr 80vh 490vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
+            grid-template-rows: 0.1fr 80vh 496vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
           } 
           .footer{
             height: 140vh;   
