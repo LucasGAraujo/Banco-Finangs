@@ -337,10 +337,10 @@ input{
     }
     @media screen and (max-width: 780px) {
         .main{
-            height: 400vh;
+            height: 380vh;
         }
         .container_grid {
-            grid-template-rows: 0.1fr 80vh 400vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
+            grid-template-rows: 0.1fr 80vh 380vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
           } 
         .footer{
             height: 120vh;   
@@ -355,10 +355,10 @@ input{
     }
     @media screen and (max-width: 420px) {
         .main{
-            height: 450vh;
+            height: 460vh;
         }
         .container_grid {
-            grid-template-rows: 0.1fr 80vh 480vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
+            grid-template-rows: 0.1fr 80vh 490vh; /* ajuste a altura das áreas do cabeçalho e do rodapé */
           } 
           .footer{
             height: 140vh;   
